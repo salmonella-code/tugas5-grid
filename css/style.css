@@ -1,0 +1,204 @@
+body{
+    background-image: url("../img/front-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* jumbotron */
+.jumbotron{
+    width: 1100px;
+    margin: 50px auto;
+}
+
+.jumbotron img{
+    float: left;
+}
+
+/* //jumbotron */
+
+/* menu */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    float: left;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    color: #686E86;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+/* //menu */
+
+header{
+    float: left;
+    border-left: 2px solid rgb(185, 177, 177);
+    margin-left: 40px;
+}
+
+nav{
+    overflow: hidden;
+    justify-content: center;
+
+}
+
+/* dropdown menu */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #54566C;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: inherit;
+    display: inline;
+    margin: 0;
+    padding-top: 5px;
+    width: 50px;
+    margin-left: 60px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: #686E86;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-right: 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* //dropdown menu */
+
+nav, .about{
+    padding-left: 40px;
+}
+
+.about{
+    align-items: center;
+}
+
+.about p{
+    float: left;
+    padding-right: 20px;
+    padding: 3px;
+}
+
+.about p:first-child{
+    color: #181F42;
+    font-weight: bold;
+}
+
+.about p:nth-child(2){
+    padding-left: 30px;
+}
+
+.about p i{
+    color: #54566C;
+}
+
+.about p:nth-child(3){
+    background-color: #DDDCDE;
+    color: #686E86;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.clear2{
+    border-bottom: 2px solid rgb(185, 177, 177);
+    clear: both;
+}
+
+.container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container h1{
+    font-family: 'PT Serif', serif;
+    color: #181F42;
+    font-weight: bold;
+}
+
+.container p{
+    color: #181F42;
+}
+
+button{
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 3px 3px;
+}
+
+button:hover{
+    background-color: #007444;
+}
+
+.btn1{
+    border: none;
+    background-color: #00BC6E;    
+}
+
+.btn1 a{
+    color: white;
+}
+
+.btn2{
+    background-color: transparent;
+    border: 1px solid #686E86;
+}
+
+.btn2 a:hover{
+    color: white;
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+.footer img{
+    margin-right: 20px;
+}
